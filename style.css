@@ -1,0 +1,356 @@
+/*Reseteo de HTML5*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*Estilos de todos los HTML*/
+
+/*Header*/
+
+.cabecera {
+    background-color: white;
+}
+
+/*Encabezado con Logo*/
+
+.section-cabecera {
+    font-family: 'Fredoka One', cursive;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-h1 {
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #019267;
+}
+
+/*Logo*/
+
+.imagen-logo {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------Fin Header----------*/
+
+/*Zona Navegable*/
+
+.menu-navegable {
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+
+/*Li Individuales*/
+
+.li-navegable {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+}
+
+.li-navegable a:hover {
+    background-color: #019267;
+    padding: auto;
+}
+
+.buscar-boton {
+    outline: none;
+    border: solid 1px #019267;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.buscar-boton2 {
+    color: #019267;
+    border-color: #019267;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.buscar-boton2:hover {
+    background-color: #FF7BA9;
+    border: solid #FF7BA9;
+    color: white;
+}
+
+/*-----Fin zona Navegable------*/
+
+/*Main- Sección Principal - INDEX.html*/
+
+.seccion-principal {
+    background-color: #019267;
+    background-size: cover;
+    position: relative;
+}
+
+.fondo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Titulo h2*/
+
+.titulo-h2 {
+    background-color: white;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #019267;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+/*Párrafo Principal*/
+
+.parrafo-h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    background-color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+/*Botón Conocenos*/
+
+.boton-main {
+    background-color: #FF7BA9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #FF7BA9;
+    box-shadow: inset white;
+    font-size: 3rem;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.boton-main:hover {
+    background-color: white;
+    color: #FF7BA9;
+    border: solid 1px #FF7BA9;
+}
+
+
+/*----Fin Sección Principal - INDEX.html-----*/
+
+
+/*Main- Sección Principal - GALERIA.html*/
+
+.fotos-galeria {
+    width: 430px;
+    height: auto;
+
+}
+
+.main-galeria {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*-----Fin Sección Principal - GALERÍA.html----*/
+
+
+/*Main- Sección Principal - CONTACTO.html*/
+
+.whatsapp-btn {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+
+}
+
+/*---Fin sección principal CONTACTO.html*/
+
+/*Estilos de todos los HTML*/
+
+/*Footer*/
+
+.footer {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*Horario de Atención*/
+
+.horario-contacto {
+    text-align: left;
+    padding-top: 20px;
+
+}
+
+/*Título Horarios*/
+
+.tituloh5-horario {
+    font-size: 3rem;
+    color: #019267;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+/*Menu Horarios*/
+
+.menu-horarios {
+    margin-left: 20px;
+    padding: 20px;
+
+}
+
+/*Opciones*/
+
+.li-menuhorarios {
+    list-style: none;
+    font-size: 20px;
+}
+
+/*Contacto*/
+
+.contacto-footer {
+    text-align: right;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/*Titulo Contacto*/
+
+.tituloh5-contacto {
+    font-size: 3rem;
+    color: #019267;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+/*Menu contacto*/
+
+.menu-contacto {
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+/*Opciones Contacto*/
+
+.li-contacto {
+    font-size: 20px;
+    list-style: none;
+
+}
+
+/*Redes Sociales*/
+
+.redes-sociales {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+.whatsapp-1 {
+    display: flex;
+    align-items: right;
+    height: 30px;
+}
+
+/*Copyright*/
+
+.copyright {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-size: 1rem;
+
+    /*-----Gradient-----*/
+
+    background: rgb(251, 251, 251);
+    background: linear-gradient(90deg, rgba(251, 251, 251, 1) 0%, rgba(45, 179, 139, 0.4462827367275035) 54%, rgba(1, 146, 103, 1) 100%);
+
+}
+
+.titulo-h6 {
+    font-size: 1rem;
+    align-items: left;
+}
+
+/*Vista Mobile*/
+
+@media (max-width: 576px) {
+
+    header,
+    nav,
+    ul,
+    main,
+    footer,
+    .galeria,
+    .tituloh5-contacto {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:992px) {
+
+    header main,
+    footer,
+    .galeria,
+    .tituloh5-contacto {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
